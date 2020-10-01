@@ -1,1 +1,215 @@
-/* No CSS *//*# sourceMappingURL=home.css.map */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #cccccc;
+  color: #626364;
+  line-height: 1.7;
+  font-size: 1rem;
+}
+
+body,
+button {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.flex-container-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.flex-container-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#main {
+  margin: 0 auto;
+  max-width: 50vw;
+  height: auto;
+  background-color: #fff;
+}
+
+#header {
+  color: #fff;
+  background-image: url("../../images/header-img.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+  max-width: 100%;
+  height: 30rem;
+}
+
+#header .flex-container-row {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  height: 100%;
+  margin: 0 50px;
+}
+
+#header .logo-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#header h6 {
+  font-size: 1rem;
+}
+
+#header #navbar .nav-link {
+  margin: 10px;
+  text-decoration: none;
+  color: #fff;
+}
+
+#header #navbar li {
+  display: inline-block;
+}
+
+#intro {
+  width: 100%;
+  margin: 50px 0;
+}
+
+#intro .intro-content {
+  width: 50%;
+  margin: 0 auto 20px;
+  text-align: center;
+}
+
+#intro h2 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+#intro p {
+  margin-top: 30px;
+  width: 100%;
+}
+
+#menu-selection {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+#menu-selection .btn-container button {
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 10px 30px;
+  margin: 20px;
+  border: 1px solid green;
+  background-color: #fff;
+  color: green;
+  outline: none;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+#menu-selection .btn-container button:hover {
+  background-color: green;
+  color: #fff;
+}
+
+#menu-selection #pizza-btn {
+  background-color: green;
+  color: #fff;
+}
+
+#pizza-menu h3,
+#salad-menu h3,
+#noodle-menu h3 {
+  color: #1A6692;
+  font-weight: 400;
+}
+
+#pizza-menu .grid-container,
+#salad-menu .grid-container,
+#noodle-menu .grid-container {
+  display: -ms-grid;
+  display: grid;
+  gap: 5px;
+  -ms-grid-columns: (minmax(300px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+#pizza-menu .card,
+#salad-menu .card,
+#noodle-menu .card {
+  width: 100%;
+  padding: 20px;
+  text-align: left;
+}
+
+#pizza-menu .card img,
+#salad-menu .card img,
+#noodle-menu .card img {
+  width: 100%;
+}
+
+#pizza-menu .food-content,
+#salad-menu .food-content,
+#noodle-menu .food-content {
+  margin-top: 15px;
+}
+
+#pizza-menu .food-content p:nth-child(3),
+#salad-menu .food-content p:nth-child(3),
+#noodle-menu .food-content p:nth-child(3) {
+  color: #2F956D;
+  font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 600px) {
+  img {
+    overflow: hidden;
+  }
+  #main {
+    max-width: 100vw;
+  }
+  #header .flex-container-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  #intro .intro-content {
+    width: 90%;
+  }
+  #menu-selection .btn-container button {
+    margin: 5px;
+  }
+}
+/*# sourceMappingURL=home.css.map */

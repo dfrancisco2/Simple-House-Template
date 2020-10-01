@@ -5,223 +5,237 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple House</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../stylesheet/home-style/home.css">
 </head>
 
 <body>
-    <!-- Header Section -->
-    <header id="header">
-        <div class="header-logo">
-            <img src="../images/simple-house-logo.png" alt="Simple House Logo">
-            <h1>Simple House</h1>
-            <h4>new restaurant template</h4>
-        </div>
-        <nav id="navbar">
-            <a href="index.html" class="nav-link">Home</a>
-            <a href="about.html" class="nav-link">About</a>
-            <a href="contact.html" class="nav-link">Contact</a>
-        </nav>
-    </header>
+    <main id="main">
+        <!-- Header Section -->
+        <header id="header">
+            <div class="flex-container-row">
+                <div class="logo-container">
+                    <div class="img-container">
+                        <img src="../images/simple-house-logo.png" alt="">
+                    </div>
+                    <div class="header-content">
+                        <h1>Simple House</h1>
+                        <h6>new restaurant template</h6>
+                    </div>
 
-    <!-- Intro Section -->
-    <section id="intro">
-        <div class="intro-content">
-            <h2>Welcome to Simple House</h2>
-            <p>Total 3 HTML pages are included in this template. Header image has a parallax effect. You can feel free
-                to download, edit and use this TemplateMo layout for your commercial or non-commercial websites.</p>
-        </div>
-    </section>
+                </div>
+                <nav id="navbar">
+                    <ul>
+                        <li><a href="index.html" class="nav-link">Home</a></li>
+                        <li><a href="about.html" class="nav-link">About</a></li>
+                        <li><a href="contact.html" class="nav-link">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
 
-    <!-- Menu Selection Section -->
-    <section id="menu-selection">
-        <div class="btn-container">
-            <button id="pizza">Pizza</button>
-            <button id="salad">Salad</button>
-            <button id="noodle">Noodle</button>
-        </div>
-    </section>
+        <!-- Intro Section -->
+        <section id="intro" class="flex-container-column">
+            <div class="intro-content">
+                <h2>Welcome to Simple House</h2>
+                <p>Total 3 HTML pages are included in this template. Header image has a parallax effect. You can feel
+                    free
+                    to download, edit and use this TemplateMo layout for your commercial or non-commercial websites.</p>
+            </div>
+        </section>
 
-    <!-- Food on Menu Sections -->
-    <!-- Pizza Menu -->
-    <section id="pizza-menu">
-        <div class="grid-container">
-            <div class="card">
-                <img src="../images/pizza-menu-1.jpg" alt="">
-                <figcaption class="food-content">
-                    <h3>Pizza Item 1</h3>
-                    <p>Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus accumsan</p>
-                    <p>$45 / $55</p>
-                </figcaption>
-            </div>
-            <div class="card">
-                <img src="../images/pizza-menu-2.jpg" alt="">
-                <figcaption class="food-content">
-                    <h3>Pizza Item 2</h3>
-                    <p>Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus accumsan</p>
-                    <p>$65 / $70</p>
-                </figcaption>
-            </div>
-            <div class="card">
-                <img src="../images/pizza-menu-3.jpg" alt="">
-                <figcaption class="food-content">
-                    <h3>Pizza Item 3</h3>
-                    <p>Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus accumsan</p>
-                    <p>$30.50</p>
-                </figcaption>
-            </div>
-            <div class="card">
-                <img src="../images/pizza-menu-4.jpg" alt="">
-                <figcaption class="food-content">
-                    <h3>Pizza Item 4</h3>
-                    <p>Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus accumsan</p>
-                    <p>$25.50</p>
-                </figcaption>
-            </div>
-            <div class="card">
-                <img src="../images/pizza-menu-5.jpg" alt="">
-                <figcaption class="food-content">
-                    <h3>Pizza Item 5</h3>
-                    <p>Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus accumsan</p>
-                    <p>$80.25</p>
-                </figcaption>
-            </div>
-            <div class="card">
-                <img src="../images/pizza-menu-6.jpg" alt="">
-                <figcaption class="food-content">
-                    <h3>Pizza Item 6</h3>
-                    <p>Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus accumsan</p>
-                    <p>$20 / $40 / $60</p>
-                </figcaption>
-            </div>
-            <div class="card">
-                <img src="../images/pizza-menu-7.jpg" alt="">
-                <figcaption class="food-content">
-                    <h3>Pizza Item 7</h3>
-                    <p>Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus accumsan</p>
-                    <p>$94</p>
-                </figcaption>
-            </div>
-            <div class="card">
-                <img src="../images/pizza-menu-8.jpg" alt="">
-                <figcaption class="food-content">
-                    <h3>Pizza Item 8</h3>
-                    <p>Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus accumsan</p>
-                    <p>$15</p>
-                </figcaption>
-            </div>
-        </div>
-    </section>
 
-    <!-- Salad Menu -->
-    <section id="salad-menu">
-        <div class="grid-container">
-            <div class="card">
-                <img src="" alt="">
-                <figcaption class="food-content">
-                    <h3></h3>
-                    <p></p>
-                    <p></p>
-                </figcaption>
+        <!-- Menu Selection Section -->
+        <section id="menu-selection" class="flex-container-row">
+            <div class="btn-container">
+                <button id="pizza-btn">Pizza</button>
+                <button id="salad-btn">Salad</button>
+                <button id="noodle-btn">Noodle</button>
             </div>
-            <div class="card">
-                <img src="" alt="">
-                <figcaption class="food-content">
-                    <h3></h3>
-                    <p></p>
-                    <p></p>
-                </figcaption>
-            </div>
-            <div class="card">
-                <img src="" alt="">
-                <figcaption class="food-content">
-                    <h3></h3>
-                    <p></p>
-                    <p></p>
-                </figcaption>
-            </div>
-            <div class="card">
-                <img src="" alt="">
-                <figcaption class="food-content">
-                    <h3></h3>
-                    <p></p>
-                    <p></p>
-                </figcaption>
-            </div>
-            <div class="card">
-                <img src="" alt="">
-                <figcaption class="food-content">
-                    <h3></h3>
-                    <p></p>
-                    <p></p>
-                </figcaption>
-            </div>
-            <div class="card">
-                <img src="" alt="">
-                <figcaption class="food-content">
-                    <h3></h3>
-                    <p></p>
-                    <p></p>
-                </figcaption>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Noodle Menu -->
-    <section id="noodle-menu">
-        <div class="grid-container">
-            <div class="card">
-                <img src="" alt="">
-                <figcaption class="food-content">
-                    <h3></h3>
-                    <p></p>
-                    <p></p>
-                </figcaption>
+        <!-- Food on Menu Sections -->
+        <!-- Pizza Menu -->
+        <section id="pizza-menu">
+            <div class="grid-container">
+                <div class="card">
+                    <img src="../images/pizza-menu-1.jpg" alt="">
+                    <figcaption class="food-content">
+                        <h3>Pizza Item 1</h3>
+                        <p>Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus accumsan</p>
+                        <p>$45 / $55</p>
+                    </figcaption>
+                </div>
+                <div class="card">
+                    <img src="../images/pizza-menu-2.jpg" alt="">
+                    <figcaption class="food-content">
+                        <h3>Pizza Item 2</h3>
+                        <p>Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus accumsan</p>
+                        <p>$65 / $70</p>
+                    </figcaption>
+                </div>
+                <div class="card">
+                    <img src="../images/pizza-menu-3.jpg" alt="">
+                    <figcaption class="food-content">
+                        <h3>Pizza Item 3</h3>
+                        <p>Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus accumsan</p>
+                        <p>$30.50</p>
+                    </figcaption>
+                </div>
+                <div class="card">
+                    <img src="../images/pizza-menu-4.jpg" alt="">
+                    <figcaption class="food-content">
+                        <h3>Pizza Item 4</h3>
+                        <p>Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus accumsan</p>
+                        <p>$25.50</p>
+                    </figcaption>
+                </div>
+                <div class="card">
+                    <img src="../images/pizza-menu-5.jpg" alt="">
+                    <figcaption class="food-content">
+                        <h3>Pizza Item 5</h3>
+                        <p>Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus accumsan</p>
+                        <p>$80.25</p>
+                    </figcaption>
+                </div>
+                <div class="card">
+                    <img src="../images/pizza-menu-6.jpg" alt="">
+                    <figcaption class="food-content">
+                        <h3>Pizza Item 6</h3>
+                        <p>Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus accumsan</p>
+                        <p>$20 / $40 / $60</p>
+                    </figcaption>
+                </div>
+                <div class="card">
+                    <img src="../images/pizza-menu-7.jpg" alt="">
+                    <figcaption class="food-content">
+                        <h3>Pizza Item 7</h3>
+                        <p>Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus accumsan</p>
+                        <p>$94</p>
+                    </figcaption>
+                </div>
+                <div class="card">
+                    <img src="../images/pizza-menu-8.jpg" alt="">
+                    <figcaption class="food-content">
+                        <h3>Pizza Item 8</h3>
+                        <p>Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus accumsan</p>
+                        <p>$15</p>
+                    </figcaption>
+                </div>
             </div>
-            <div class="card">
-                <img src="" alt="">
-                <figcaption class="food-content">
-                    <h3></h3>
-                    <p></p>
-                    <p></p>
-                </figcaption>
-            </div>
-            <div class="card">
-                <img src="" alt="">
-                <figcaption class="food-content">
-                    <h3></h3>
-                    <p></p>
-                    <p></p>
-                </figcaption>
-            </div>
-            <div class="card">
-                <img src="" alt="">
-                <figcaption class="food-content">
-                    <h3></h3>
-                    <p></p>
-                    <p></p>
-                </figcaption>
-            </div>
-            <div class="card">
-                <img src="" alt="">
-                <figcaption class="food-content">
-                    <h3></h3>
-                    <p></p>
-                    <p></p>
-                </figcaption>
-            </div>
-            <div class="card">
-                <img src="" alt="">
-                <figcaption class="food-content">
-                    <h3></h3>
-                    <p></p>
-                    <p></p>
-                </figcaption>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Learn More Section -->
-    <section id="learn-more">
-        <div class="flex-container">
+        <!-- Salad Menu -->
+        <section id="salad-menu">
+            <div class="grid-container">
+                <div class="card">
+                    <img src="" alt="">
+                    <figcaption class="food-content">
+                        <h3></h3>
+                        <p></p>
+                        <p></p>
+                    </figcaption>
+                </div>
+                <div class="card">
+                    <img src="" alt="">
+                    <figcaption class="food-content">
+                        <h3></h3>
+                        <p></p>
+                        <p></p>
+                    </figcaption>
+                </div>
+                <div class="card">
+                    <img src="" alt="">
+                    <figcaption class="food-content">
+                        <h3></h3>
+                        <p></p>
+                        <p></p>
+                    </figcaption>
+                </div>
+                <div class="card">
+                    <img src="" alt="">
+                    <figcaption class="food-content">
+                        <h3></h3>
+                        <p></p>
+                        <p></p>
+                    </figcaption>
+                </div>
+                <div class="card">
+                    <img src="" alt="">
+                    <figcaption class="food-content">
+                        <h3></h3>
+                        <p></p>
+                        <p></p>
+                    </figcaption>
+                </div>
+                <div class="card">
+                    <img src="" alt="">
+                    <figcaption class="food-content">
+                        <h3></h3>
+                        <p></p>
+                        <p></p>
+                    </figcaption>
+                </div>
+            </div>
+        </section>
+
+        <!-- Noodle Menu -->
+        <section id="noodle-menu">
+            <div class="grid-container">
+                <div class="card">
+                    <img src="" alt="">
+                    <figcaption class="food-content">
+                        <h3></h3>
+                        <p></p>
+                        <p></p>
+                    </figcaption>
+                </div>
+                <div class="card">
+                    <img src="" alt="">
+                    <figcaption class="food-content">
+                        <h3></h3>
+                        <p></p>
+                        <p></p>
+                    </figcaption>
+                </div>
+                <div class="card">
+                    <img src="" alt="">
+                    <figcaption class="food-content">
+                        <h3></h3>
+                        <p></p>
+                        <p></p>
+                    </figcaption>
+                </div>
+                <div class="card">
+                    <img src="" alt="">
+                    <figcaption class="food-content">
+                        <h3></h3>
+                        <p></p>
+                        <p></p>
+                    </figcaption>
+                </div>
+                <div class="card">
+                    <img src="" alt="">
+                    <figcaption class="food-content">
+                        <h3></h3>
+                        <p></p>
+                        <p></p>
+                    </figcaption>
+                </div>
+                <div class="card">
+                    <img src="" alt="">
+                    <figcaption class="food-content">
+                        <h3></h3>
+                        <p></p>
+                        <p></p>
+                    </figcaption>
+                </div>
+            </div>
+        </section>
+
+        <!-- Learn More Section -->
+        <section id="learn-more" class="flex-container-row">
             <img src="../images/learn-more-img.jpg" alt="">
             <div class="learn-more-content">
                 <h4>Want To Learn More?</h4>
@@ -230,15 +244,15 @@
                 </p>
                 <button id="read-more-btn">Read More</button>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Footer Section -->
-    <footer id="footer">
-        <div class="copyright-container">
-            <p>Copyright &copy; 2020 Simple House | Created by Danny Francisco</p>
-        </div>
-    </footer>
+        <!-- Footer Section -->
+        <footer id="footer">
+            <div class="copyright-container">
+                <p>Copyright &copy; 2020 Simple House | Created by Danny Francisco</p>
+            </div>
+        </footer>
+    </main>
 </body>
 
 </html>
